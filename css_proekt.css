@@ -131,8 +131,7 @@ a:visited {
 .T {
     text-align: left;
     margin-bottom: 10px;
-    border-radius: 10px;
-    background-color:#d3f7b7 ;
+    border-radius: 10px ;
 }
    
 .form h3 {
@@ -163,6 +162,11 @@ a:visited {
         margin-right: 0;
         margin-bottom: 10px;
     }
+    .card2 .table  {
+        max-width: 300px;
+}
+
+   
 }
 
 .form-group label {
