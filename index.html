@@ -8,11 +8,19 @@
     <meta name="description" content="This is samething about my site">
     <meta name="keywords" content="my, first, site">
     <title>Future site</title>
+    <link rel="stylesheet" href="css_proekt.css">
 </head>
 
 <body>
 
-    <img src="myphoto.jpg" width="150" alt="this is my photo">
+    <div class="container">
+<div class="Info">
+ 
+     <img src="myphoto.jpg" alt="this is my photo" class="avatar">
+ 
+
+     <div class="info-text">
+
     <h1>Мария Кирилович</h1>
 
     <p>
@@ -21,38 +29,48 @@
         Я люблю <em>путешествовать, заниматься спортом и вкусно кушать</em></p>
     </p>
 
-<hr size="11" noshade="" color="pink" width="33%" align="left">
+<hr size="" noshade="" width="62%" color="pink" align="left">
 <h3>Мои социальные сети:</h3>
 
 <a href="https://www.facebook.com/profile.php?id=100008167868281"
- target="_blank">Facebook</a>
+ target="_blank" class="btn">Facebook</a>
 
- <a href="https://www.instagram.com/mkrlvch/" 
+ <a href="https://www.instagram.com/mkrlvch/" class="btn"
  target="_blank">Instagram</a>
 
+<br>
+<br>
  <a href="" target="_blank"></a>
 
- <hr>
+ 
+ </div>
+</div>
 
-<h2>Мои хобби</h2>
 
- <ol>
+<div class="card1">
+   
+
+ <h2>Мои хобби</h2>
+
+ <ol class="list">
     <li>Мода</li>
     <li>Путешествия</li>
     <li>Спорт</li>
 
-<hr>
+</div>
+
 </ol>
 
-
-<table width="500">
+<div class="card2">
+ <h2>Опыт Работы</h2>
+ <table width="500">
     <thead>
-    <tr>
+    <tr class="T">
         <th>Название</th>
         <th>Должность</th>
         <th>Год</th>
     </tr>
-</thead>
+ </thead>
     <tr>
         <td>Отель Gloria</td>
         <td>Аниматор</td>
@@ -63,30 +81,39 @@
         <td>pokerplayer</td>
         <td>2015-2019</td>
     </tr>
-</table>
+ </table>
+ <br>
+</div>
 
+<form action="/" class="form">
 <h3>Связаться со мной</h3>
 
-<div>
+<br>
+
+<div class="form-row">
+
+<div class="form-group">
     <label for="Text">Ваше имя</label>
     <input type="text" id="Text" placeholder="введите ваше имя">
 </div>
 
-<div>
+<div class="form-group">
     <label for="Email">Ваш email</label>
     <input type="email" id="Email" placeholder="введите ваш email ">
-
+</div>
 </div>
 
-<div>
+<div class="form-group">
     <label for="Massage">Ваше сообщение</label>
     <br>
     <textarea id="massage" cols="15" rows="5" placeholder="введите ваше сообщение"></textarea>
 </div>
 
-<button type="submit">Отправить</button>
-
-
+<div class="#">
+ <button type="submit" class="btn">Отправить</button>
+  </div>
+</div>
+</form>
 
 
 
