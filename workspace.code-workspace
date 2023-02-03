@@ -1,0 +1,14 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\HTML"
+		}
+	],
+    "settings": {
+        "liveServer.settings.CustomBrowser": "chrome",
+        "liveServer.settings.multiRootWorkspaceName": "HTML"
+    }
+}
